@@ -34,6 +34,12 @@ export default function Home() {
           </video>
         </div>
       </div>
+      <div className="text-center max-w-3xl mb-4 text-3xl font-extrabold tracking-tighter md:text-4xl mx-auto">
+      Design de Paisagismo e Interiores Criados com AI
+      </div>
+      <div className="mt-5 text-lg text-center font-light text-gray-500 max-w-4xl md:text-lg mx-auto">
+      Nossa inteligência artificial automaticamente reprojeta ambientes externos e internos, considerando elementos arquitetônicos como gramados, pátios, piscinas e mobiliário, eletrodomésticos externos, desde bancos de jardim até instalações para churrasco.
+      </div>
     </div>
   );
 }
