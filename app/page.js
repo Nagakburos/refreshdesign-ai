@@ -86,15 +86,32 @@ export default function Home() {
       Amado por inúmeros Designs ao redor do mundo.
       </h1>
       <p className="mt-5 text-lg text-center font-light text-gray-500 max-w-4xl md:text-lg mx-auto">
-        3406+ de Pessoas não podem estar erradas. Deixe a RefreshDesign IA fazer a magica por voce.
+        3406+ de Pessoas não podem estar erradas. Deixe a RefreshDesign IA fazer a mágica por você.
       </p>
         </div>
         <div className="mt-8 px-4 py-8 max-w-screen-xl grid grid-cols-12 gap-4 w-full mx-auto">
           <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
-            
+          <svg
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            className="text-black w-12 h-12 mb-3 inline-block"
+            viewBox="0 0 24 24"
+          >
+
+          <path d="MB 17l4 4 4-4m-4-5v9"></path>
+          <path d="M20.88 18.09A5 50  0018 9h-1.26A8 8 0 103 16.29"></path>
+
+          </svg>
+          <h2 className="title-font font-medium text-3xl text-gray-900">
+          3.9K
+          </h2>
+          <p className="Leading-relaxed" >Downloads</p>
+
           </div>
-        </div>
-      
+        </div>      
       </section>
     </div>
   );
