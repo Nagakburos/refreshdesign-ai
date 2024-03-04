@@ -11,12 +11,9 @@ const Navbar = () => {
                 <div className='flex justify-between item-center'>
                     <Logo />
                     <UserMenu />
-
                 </div>
             </Container>
-
         </div>
-
     </div>
   )
 }
