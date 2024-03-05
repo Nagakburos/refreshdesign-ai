@@ -124,7 +124,7 @@ export default function Home() {
             >
               <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
               <circle cx="9" cy="7" r="4"></circle>
-              <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+              <path d="M23 21v-2a4 4 0 TODO00-3-3.87m-4-12a4 4 0 010 7.75"></path>
             </svg>
             <h2 className="title-font font-medium text-3xl text-gray-900">
               4.1K
@@ -153,6 +153,22 @@ export default function Home() {
 
         </div>
       </section>
+
+
+      {/*Testimonials*/}
+      <section className="max-w-screen-xl mx-auto mt-20">
+        <div>
+          <h1 className="text-center max-w-3xl mb-4 text-3xl font-extrabold tracking-tighter md:text-4xl mx-auto">
+            Testemunhos
+          </h1>
+          <div className="col-span-6 p-4 w-full">
+            <div className="h-full bg-gray-100 p-8 round">Testemunhos aqui</div>
+          </div>
+//TODO colocar os testemunhos aqui.
+          <div className="col-span-6 p-4 w-full"></div>
+
+        </div>
+        </section>
     </div>
   );
 }
