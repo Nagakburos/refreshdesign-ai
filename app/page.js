@@ -6,7 +6,7 @@ export default function Home() {
       <div className="grid lg:grid-cols-12 mx-auto px-4 py-8 max-w-screen-xl lg:py-16">
         <div className="col-span-7 place-self-center mr-auto">
           <h1 className="masx-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl">
-            Crie seu quartos dos sonhos <br className="max-md:hidden" />
+            Crie seu espaço dos sonhos <br className="max-md:hidden" />
             <span className="text-center purple_gradient">usando IA.</span>
           </h1>
           <p className="hero_desc">
