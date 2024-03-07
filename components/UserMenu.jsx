@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
@@ -26,7 +27,7 @@ const UserMenu = () => {
           </Link>
           <div>|</div>
           <div className="text-base font-medium py-3 rounded cursor-pointer">
-            {session.user.credits} credits
+            {session.user.credits} créditos
           </div>
           <div className="relative">
             <Image
@@ -45,7 +46,7 @@ const UserMenu = () => {
                     className="dropdown_link"
                     onClick={() => setToggleDropdown(false)}
                   >
-                    Dashboard
+                    Painel
                   </Link>
                 )}
                 <Link
@@ -53,14 +54,14 @@ const UserMenu = () => {
                   className="dropdown_link"
                   onClick={() => setToggleDropdown(false)}
                 >
-                  My Rooms
+                  Meus Designs
                 </Link>
                 <Link
                   href="/generate"
                   className="dropdown_link"
                   onClick={() => setToggleDropdown(false)}
                 >
-                  Create Room
+                  Criar Design
                 </Link>
 
                 <button
@@ -71,7 +72,7 @@ const UserMenu = () => {
                     signOut();
                   }}
                 >
-                  Sign Out
+                  Sair
                 </button>
               </div>
             )}
@@ -87,7 +88,7 @@ const UserMenu = () => {
                 onClick={() => signIn(provider.id, { callbackUrl: "/" })}
                 className="black_btn"
               >
-                Sign In
+                Entrar
               </button>
             ))}
         </>
