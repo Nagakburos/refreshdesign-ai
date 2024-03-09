@@ -10,6 +10,16 @@ export const authOptions = {
     }),
     // ...add more providers here
   ],
-}
+  callbacks: {
+    async session({ session }) {
+        
+        return session
+      },
+    async signIn({ profile }) {
+      
+      return true 
+    },
+  }
+};
 
 //export default NextAuth(authOptions)
