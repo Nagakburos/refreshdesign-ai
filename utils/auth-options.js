@@ -24,7 +24,7 @@ export const authOptions = {
       console.log("profile", profile);
       try {
         await connectToDB();
-        constuserExists = await User.findOne({
+        const userExists = await User.findOne({
           email: profile.email,
         });
         if (!userExists) {
@@ -39,9 +39,10 @@ export const authOptions = {
           //
         }
         return true;
-      } catch (error) {}
-      console.log(error);
-      return false;
+      } catch (error) {
+        console.log(error);
+        return false;
+      }
     },
   },
 };

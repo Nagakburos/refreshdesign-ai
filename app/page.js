@@ -214,3 +214,6 @@ export default function Home() {
     </div>
   );
 }
+
+
+//https://next-auth.js.org/errors#client_fetch_error
