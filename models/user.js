@@ -25,11 +25,11 @@ const UserSchema = new Schema({
       message: "{VALUE} is not an integer value",
     },
   },
-  role: {
-    type: String,
-    required: true,
-    default: "customer",
-  },
+  //role: {
+    //type: String,
+    //required: true,
+    //default: "customer",
+  //},
 });
 
 const User = models.User || model("User", UserSchema);
