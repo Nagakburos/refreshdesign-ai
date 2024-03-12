@@ -39,7 +39,7 @@ const UserMenu = () => {
             />
             {toggleDropdown && (
               <div className="dropdown">
-                {session.user.role == "admin" && (
+                {session.user.role === "admin" && (
                   <Link
                     href="/dashboard"
                     className="dropdown_link"
